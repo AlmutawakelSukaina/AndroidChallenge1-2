@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+      android:weightSum="50"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_margin="20dp"
+
+
+        android:orientation="horizontal"
+        android:weightSum="60">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+                android:text="مكية"
+                android:textColor="#5662f9"
+                android:textSize="20sp"
+
+
+
+                ></TextView>
+
+
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="50"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="46"
+         android:orientation="vertical"
+            android:layout_gravity="center"
+            android:weightSum="20"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+
+          android:layout_weight="14">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="سورة الفاتحة"
+                    android:paddingTop="15dp"
+                    android:textStyle="bold"
+                   android:textColor="#000"
+
+                    android:textSize="20sp"
+                    ></TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_weight="6">
+                <LinearLayout
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="صفحة:7"
+                        android:textColor="#5662f9"
+                        android:textSize="18sp"></TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="عدد الآيات:7"
+                        android:textSize="18sp"></TextView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+
+                >
+            </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+       <TextView
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:textSize="25dp"
+           android:layout_marginTop="17dp"
+           android:text="1"
+           android:textColor="#000"
+           ></TextView>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+
+        android:layout_weight="43"
+
+        >
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
